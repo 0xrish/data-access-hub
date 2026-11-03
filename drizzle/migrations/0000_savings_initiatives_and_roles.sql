@@ -99,7 +99,7 @@ values
   ('288420307813003', 28842030781.0, 'ZELAN R3                         0108.96', '3003', 'North Asia', 'Fluoro Chemicals', 'Flouro Chem', 'Charles Allotey', 'Chemicals', 'Non_Index', 548505.0, 6294607.0, 11.475933674260034, '4-Go Live', 1.0, 76926.0, 891676.0, 11.591347528793905, 11.591347528793905, NULL, 548505.0, 6357912.076281101, '2026-09-01', 'Carry over', 'Renegotiation', 'NICCA (before Chemours) for china', 'NO', 1.2, -0.3, 12.491347528793904, 548505.0, 6851566.5762811005, 493654.49999999907, 0.0, 658206.0, -164551.5, 0.1645515, -9.313225746154785e-10, 45708.75, 45708.75, 45708.75, 45708.75, 45708.75, 45708.75, 45708.75, 45708.75, 45708.75, 45708.75, 45708.75, 45708.75, 13712.625, 13712.625, 13712.625, 13712.625, 13712.625, 13712.625, 13712.625, 13712.625, 13712.625, 13712.625, 13712.625, 0.0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
   ('2904814006', 290481.0, 'METHANOL', '4006', 'North America', 'Base Chemicals', 'Base Chemicals', 'Thais Prado', 'Chemicals', 'Index', 2466788.0, 1344807.0, 0.545165210792334, '4-Go Live', 1.0, 448996.0, 314008.0, 0.6993558962663364, 0.6993558962663364, 'Price increase in June and supply issues', 2466788.0, 1725162.7326390436, '2026-09-01', 'Carry over', 'Market Indexing', 'Supply agreement - Bulk', 'NO', 0.05, -0.1, 0.6493558962663365, 2466788.0, 1601823.3326390437, -123339.3999999999, 0.0, 123339.40000000001, -246678.80000000002, 0.2466788, 0.0, 205565.66666666666, 205565.66666666666, 205565.66666666666, 205565.66666666666, 205565.66666666666, 205565.66666666666, 205565.66666666666, 205565.66666666666, 205565.66666666666, 205565.66666666666, 205565.66666666666, 205565.66666666666, 20556.56666666667, 20556.56666666667, 20556.56666666667, 20556.56666666667, 20556.56666666667, 20556.56666666667, 20556.56666666667, 20556.56666666667, 20556.56666666667, 20556.56666666667, 20556.56666666667, 0.0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
   ('2910223520', 291022.0, 'REACTIVE RED 239 HC', '3520', 'South Asia', 'Reactive Dyes & Intermediates', 'Reactive Dyes', 'Bhavesh Thakkar', 'Dyes', 'Non_Index', 834500.0, 2903570.0, 3.4794128220491314, '4-Go Live', 1.0, 270000.0, 1175309.0, 4.352996296296296, 4.352996296296296, NULL, 834500.0, 3632575.4092592592, '2026-10-01', 'New', 'Bulk Buying', 'EBONY- Stratergic Partnership', 'NO', NULL, -0.3, 4.052996296296296, 834500.0, 3382225.4092592592, -250350.0, 0.0, 0.0, -250350.0, 0.25035, 0.0, 69541.66666666667, 69541.66666666667, 69541.66666666667, 69541.66666666667, 69541.66666666667, 69541.66666666667, 69541.66666666667, 69541.66666666667, 69541.66666666667, 69541.66666666667, 69541.66666666667, 69541.66666666667, 20862.5, 20862.5, 20862.5, 20862.5, 20862.5, 20862.5, 20862.5, 20862.5, 20862.5, 20862.5, 20862.5, 20862.5, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-  ('23666010620CNAA', 23666010620.0, 'Genapol PH 70                       0200', 'CNAA', 'North Asia', 'EO /PO derivatives & Fatty Acids', 'EO/PO ', 'Flofill Liu', 'Chemicals', 'Non_Index', 97850.0, 532346.0, 5.440429228410833, '3-Testing', 0.75, 62130.0, 342556.0, 5.513536133912764, 5.513536133912764, NULL, 97850.0, 539499.5107033639, '2027-01-01', 'New', 'New/alternative source/vendor', 'alternative source: 295578', 'NO', NULL, -2.2, 3.3135361339127636, 102000.0, 337980.6856591019, -201518.82504426205, 22881.17495573797, 0.0, -224400.00000000003, 0.22440000000000002, 0.0, NULL, NULL, NULL, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 0.0, 0.0, 0.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+  ('23666010620CNAA', 23666010620.0, 'Genapol PH 70                       0200', 'CNAA', 'North Asia', 'EO /PO derivatives & Fatty Acids', 'EO/PO ', 'Flofill Liu', 'Chemicals', 'Non_Index', 97850.0, 532346.0, 5.440429228410833, '3-Testing', 0.75, 62130.0, 342556.0, 5.513536133912764, 5.513536133912764, NULL, 97850.0, 539499.5107033639, '2027-01-01', 'New', 'New/alternative source/vendor', 'alternative source: 295578', 'NO', NULL, -2.2, 3.3135361339127636, 102000.0, 337980.6856591019, -201518.82504426205, 22881.17495573797, 0.0, -224400.00000000003, 0.22440000000000002, 0.0, NULL, NULL, NULL, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 8500.0, 0.0, 0.0, 0.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, 18700.0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- Roles: admin (upload + user management) vs viewer (read-only)
 create type public.app_role as enum ('admin', 'viewer');
@@ -116,10 +116,10 @@ grant all on public.user_roles to service_role;
 
 alter table public.user_roles enable row level security;
 
-create policy "Signed-in users can read roles"
+create policy "Users can read their own roles"
   on public.user_roles for select
   to authenticated
-  using (true);
+  using (auth.uid() = user_id);
 
 create or replace function public.has_role(_user_id uuid, _role app_role)
 returns boolean
@@ -136,6 +136,11 @@ as $$
   )
 $$;
 
+create policy "Admins can read all roles"
+  on public.user_roles for select
+  to authenticated
+  using (public.has_role(auth.uid(), 'admin'));
+
 -- The first person to sign up becomes admin; everyone after starts as viewer.
 create or replace function public.assign_role_on_signup()
 returns trigger
@@ -144,7 +149,7 @@ security definer
 set search_path = public
 as $$
 begin
-  if not exists (select 1 from public.user_roles) then
+  if not exists (select 1 from public.user_roles where role = 'admin') then
     insert into public.user_roles (user_id, role) values (new.id, 'admin');
   else
     insert into public.user_roles (user_id, role) values (new.id, 'viewer')
