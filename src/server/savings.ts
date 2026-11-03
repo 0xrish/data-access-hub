@@ -63,13 +63,19 @@ export const importInitiatives = createServerFn({ method: "POST" })
 
     // Load the service-role client lazily, inside the verified-admin handler.
     const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
-    const del = await supabaseAdmin.from("savings_initiatives").delete().neq("id", "00000000-0000-0000-0000-000000000000");
+    const del = await supabaseAdmin
+      .from("savings_initiatives")
+      .delete()
+      .neq("id", "00000000-0000-0000-0000-000000000000");
     if (del.error) throw new Error(del.error.message);
 
+    type InsertRow = import("@/integrations/supabase/types").Database["public"]["Tables"]["savings_initiatives"]["Insert"];
+    const payload = clean as unknown as InsertRow[];
+
     const CHUNK = 200;
-    for (let i = 0; i < clean.length; i += CHUNK) {
-      const { error } = await supabaseAdmin.from("savings_initiatives").insert(clean.slice(i, i + CHUNK));
+    for (let i = 0; i < payload.length; i += CHUNK) {
+      const { error } = await supabaseAdmin.from("savings_initiatives").insert(payload.slice(i, i + CHUNK));
       if (error) throw new Error(error.message);
     }
-    return { imported: clean.length };
+    return { imported: payload.length };
   });
