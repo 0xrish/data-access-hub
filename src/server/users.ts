@@ -36,7 +36,7 @@ export const listUsers = createServerFn({ method: "GET" })
       userId: u.id,
       email: u.email ?? "(no email)",
       createdAt: u.created_at,
-      lastSignInAt: u.last_sign_in_at,
+      lastSignInAt: u.last_sign_in_at ?? null,
       role: roleByUser.get(u.id) ?? null,
     }));
   });
