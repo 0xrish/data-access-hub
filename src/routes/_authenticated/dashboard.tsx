@@ -1,8 +1,7 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
 import { memo, useMemo, useState } from "react";
 import { useSuspenseQuery, queryOptions } from "@tanstack/react-query";
-import type { ComposedChartProps } from "recharts";
 import {
   Bar,
   CartesianGrid,
@@ -19,7 +18,6 @@ import {
   ArrowUpRight,
   Download,
   Search,
-  Target,
 } from "lucide-react";
 import { getInitiatives, type InitiativeRow } from "@/server/savings";
 import { DATA_COLUMNS, COLUMN_MAP, FILTER_FIELDS, MONTHS, DEFAULT_VISIBLE_COLUMNS } from "@/lib/data-columns";
@@ -93,7 +91,7 @@ function Dashboard() {
     return rows.filter((row) =>
       FILTER_FIELDS.every((f) => {
         const sel = filters[f.column];
-        if (!sel || sel.length === 0 || sel.length === options[f.column].length) return true;
+        if (!sel || sel.length === 0 || sel.length === (options[f.column]?.length ?? 0)) return true;
         return sel.includes(String(row[f.column]));
       }),
     );
@@ -103,7 +101,7 @@ function Dashboard() {
     () =>
       drill
         ? filtered.filter(
-            (r) => String(r.initiative_type) === drill.type && String(r.sub_category) === drill.sub,
+            (r) => String(r["initiative_type"]) === drill.type && String(r["sub_category"]) === drill.sub,
           )
         : [],
     [filtered, drill],
@@ -297,7 +295,7 @@ const HeatCell = memo(function HeatCell({
   max: number;
   onClick: () => void;
 }) {
-  const cellRows = rows.filter((r) => String(r.initiative_type) === type && String(r.sub_category) === sub);
+  const cellRows = rows.filter((r) => String(r["initiative_type"]) === type && String(r["sub_category"]) === sub);
   const spend = sum(cellRows, "aop27_spends");
   const prod = sum(cellRows, "annual_productivity");
   const roi = spend > 0 ? prod / spend : null;
@@ -327,13 +325,13 @@ function RoiHeatmap({
   onCellClick: (cell: { type: string; sub: string }) => void;
 }) {
   const { types, subs, min, max } = useMemo(() => {
-    const types = [...new Set(rows.map((r) => String(r.initiative_type ?? "—")))].sort();
-    const subs = [...new Set(rows.map((r) => String(r.sub_category ?? "—")))].sort();
+    const types = [...new Set(rows.map((r) => String(r["initiative_type"] ?? "—")))].sort();
+    const subs = [...new Set(rows.map((r) => String(r["sub_category"] ?? "—")))].sort();
     let min = HEAT_MAX;
     let max = HEAT_MIN;
     for (const t of types)
       for (const s of subs) {
-        const cell = rows.filter((r) => String(r.initiative_type) === t && String(r.sub_category) === s);
+        const cell = rows.filter((r) => String(r["initiative_type"]) === t && String(r["sub_category"]) === s);
         const spend = sum(cell, "aop27_spends");
         if (spend <= 0) continue;
         const roi = sum(cell, "annual_productivity") / spend;
@@ -575,6 +573,3 @@ function Registry({ rows }: { rows: InitiativeRow[] }) {
     </Card>
   );
 }
-
-// Re-exported so tree-shaking keeps the Target icon import available for future header badges.
-export const _icons = { Target, Link };
