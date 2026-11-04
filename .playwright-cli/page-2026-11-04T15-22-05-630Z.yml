@@ -1,0 +1,113 @@
+- generic [ref=f11e2]:
+  - banner [ref=f11e3]:
+    - generic [ref=f11e4]:
+      - link "Supply Chain Control Center" [ref=f11e5] [cursor=pointer]:
+        - /url: /dashboard
+      - navigation [ref=f11e12]:
+        - link "Control Center" [ref=f11e13] [cursor=pointer]:
+          - /url: /dashboard
+        - link "Upload Data" [ref=f11e19] [cursor=pointer]:
+          - /url: /upload
+        - link "User Access" [ref=f11e23] [cursor=pointer]:
+          - /url: /users
+      - button "A admin@admin.com" [ref=f11e28] [cursor=pointer]:
+        - generic [ref=f11e29]: A
+        - generic [ref=f11e30]: admin@admin.com
+  - main [ref=f11e31]:
+    - generic [ref=f11e32]:
+      - generic [ref=f11e33]:
+        - heading "Upload Savings Data" [level=1] [ref=f11e34]
+        - paragraph [ref=f11e35]: Upload an Excel (.xlsx / .xls) or CSV file. Records append by their Mat+Plant unique ID; existing versions stay in the registry and are marked Old when an updated version arrives.
+      - generic [ref=f11e36] [cursor=pointer]:
+        - generic [ref=f11e42]:
+          - paragraph [ref=f11e43]: Drop your file here or browse
+          - paragraph [ref=f11e44]: Supports .xlsx, .xls, and .csv — max 5,000 rows
+        - button "Choose File" [ref=f11e45]
+      - generic [ref=f11e46]:
+        - generic [ref=f11e47]:
+          - generic [ref=f11e52]:
+            - generic [ref=f11e53]: Book1-1.xlsx
+            - paragraph [ref=f11e54]: Sheet "Sheet1" · 9 rows · 75 of 75 columns matched
+            - paragraph [ref=f11e55]: "Mat+Plant IDs: 9 unique · 0 repeated in this upload"
+          - button [ref=f11e56] [cursor=pointer]
+        - generic [ref=f11e57]:
+          - generic [ref=f11e58]:
+            - paragraph [ref=f11e59]: Preview (first 5 rows)
+            - table [ref=f11e62]:
+              - rowgroup [ref=f11e63]:
+                - row [ref=f11e64]:
+                  - columnheader "mat_plant" [ref=f11e65]
+                  - columnheader "material" [ref=f11e66]
+                  - columnheader "material_name" [ref=f11e67]
+                  - columnheader "plant" [ref=f11e68]
+                  - columnheader "plant_region" [ref=f11e69]
+                  - columnheader "sub_category" [ref=f11e70]
+                  - columnheader "silicones" [ref=f11e71]
+                  - columnheader "catergory_manager" [ref=f11e72]
+                  - columnheader "dyes_chem" [ref=f11e73]
+                  - columnheader "material_classification" [ref=f11e74]
+                  - columnheader "+65 more" [ref=f11e75]
+              - rowgroup [ref=f11e76]:
+                - row [ref=f11e77]:
+                  - cell "286009308125811" [ref=f11e78]
+                  - cell "28600930812" [ref=f11e79]
+                  - cell "Ultraphor PWC R pdr 0020" [ref=f11e80]
+                  - cell "5811" [ref=f11e81]
+                  - cell "North America" [ref=f11e82]
+                  - cell "Process & OBA Chemicals" [ref=f11e83]
+                  - cell "Process & OBA" [ref=f11e84]
+                  - cell "Ben Mo" [ref=f11e85]
+                  - cell "Chemicals" [ref=f11e86]
+                  - cell "Non_Index" [ref=f11e87]
+                  - cell "…" [ref=f11e88]
+                - row [ref=f11e89]:
+                  - cell "2417472104" [ref=f11e90]
+                  - cell "241747" [ref=f11e91]
+                  - cell "Perfluorhexylethylmethacrylat" [ref=f11e92]
+                  - cell "2104" [ref=f11e93]
+                  - cell "EMEA" [ref=f11e94]
+                  - cell "Fluoro Chemicals" [ref=f11e95]
+                  - cell "Flouro Chem" [ref=f11e96]
+                  - cell "Charles Allotey" [ref=f11e97]
+                  - cell "Chemicals" [ref=f11e98]
+                  - cell "Non_Index" [ref=f11e99]
+                  - cell "…" [ref=f11e100]
+                - row [ref=f11e101]:
+                  - cell "2897975504" [ref=f11e102]
+                  - cell "289797" [ref=f11e103]
+                  - cell "FORMAZANE BLUE F-R MOIST PURCHASED" [ref=f11e104]
+                  - cell "5504" [ref=f11e105]
+                  - cell "South East Asia" [ref=f11e106]
+                  - cell "Reactive Dyes & Intermediates" [ref=f11e107]
+                  - cell "Reactive Dyes" [ref=f11e108]
+                  - cell "Bhavesh Thakkar" [ref=f11e109]
+                  - cell "Dyes" [ref=f11e110]
+                  - cell "Non_Index" [ref=f11e111]
+                  - cell "…" [ref=f11e112]
+                - row [ref=f11e113]:
+                  - cell "2896124006" [ref=f11e114]
+                  - cell "289612" [ref=f11e115]
+                  - cell "1-BR-4-CYCLOHEXYLAMINO-AQ CRUDE DRY" [ref=f11e116]
+                  - cell "4006" [ref=f11e117]
+                  - cell "North America" [ref=f11e118]
+                  - cell "WPP Dyes, Pigments & Intermediates" [ref=f11e119]
+                  - cell "WPP Dyes" [ref=f11e120]
+                  - cell "Charuwan Maidee" [ref=f11e121]
+                  - cell "Dyes" [ref=f11e122]
+                  - cell "Non_Index" [ref=f11e123]
+                  - cell "…" [ref=f11e124]
+                - row [ref=f11e125]:
+                  - cell "2947683201" [ref=f11e126]
+                  - cell "294768" [ref=f11e127]
+                  - cell "Lemonite 0124 ACP" [ref=f11e128]
+                  - cell "3201" [ref=f11e129]
+                  - cell "South East Asia" [ref=f11e130]
+                  - cell "Process & OBA Chemicals" [ref=f11e131]
+                  - cell "Process & OBA" [ref=f11e132]
+                  - cell "Ben Mo" [ref=f11e133]
+                  - cell "Chemicals" [ref=f11e134]
+                  - cell "Non_Index" [ref=f11e135]
+                  - cell "…" [ref=f11e136]
+          - generic [ref=f11e137]:
+            - button "Cancel" [ref=f11e138] [cursor=pointer]
+            - button "Replace data (9 rows)" [ref=f11e139] [cursor=pointer]

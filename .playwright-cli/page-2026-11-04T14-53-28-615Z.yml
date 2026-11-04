@@ -1,0 +1,26 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: SC
+      - generic [ref=e6]: Supply Chain Control Center
+    - link "Sign in" [ref=e7] [cursor=pointer]:
+      - /url: /auth
+  - generic [ref=e8]:
+    - paragraph [ref=e9]: Procurement · FY27 savings program
+    - heading "Every savings initiative, one control center" [level=1] [ref=e10]
+    - paragraph [ref=e11]: A single, clean view of your dyes & chemicals cost-savings pipeline — filtered, measured and exportable.
+    - link "Open the control center" [ref=e13] [cursor=pointer]:
+      - /url: /auth
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - heading "Global filters" [level=3] [ref=e18]
+      - paragraph [ref=e19]: Slice the registry by region, plant, sub-category, initiative type, manager and material — all at once.
+    - generic [ref=e20]:
+      - heading "Spend & savings trends" [level=3] [ref=e24]
+      - paragraph [ref=e25]: Planned savings and monthly actuals for FY27, KPIs for YTD spend, AOP27 and productivity.
+    - generic [ref=e26]:
+      - heading "Savings ROI heatmap" [level=3] [ref=e29]
+      - paragraph [ref=e30]: Initiative type vs. sub-category efficiency. Click any cell to drill into the initiatives behind it.
+    - generic [ref=e31]:
+      - heading "Role-based access" [level=3] [ref=e35]
+      - paragraph [ref=e36]: Admins upload new data and manage user access; everyone else gets a clean read-only view.

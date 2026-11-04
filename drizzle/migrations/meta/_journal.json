@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793723227115,
+      "tag": "0000_savings_initiatives_and_roles",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793817600000,
+      "tag": "0001_add_pending_role",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793817601000,
+      "tag": "0002_admin_approval_and_read_only_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793817602000,
+      "tag": "0003_lock_down_authenticated_writes",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793817603000,
+      "tag": "0004_record_version_tracking",
+      "breakpoints": true
+    }
+  ]
+}
